@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LibraryTest {
+class MobileTest {
 
     private static final long TEN_SECONDS_IN_MILLIS = TimeUnit.SECONDS.toMillis(10);
 
@@ -17,6 +17,6 @@ class LibraryTest {
     void testGetMessage() throws InterruptedException {
         Thread.sleep(TEN_SECONDS_IN_MILLIS);
 
-        assertEquals("Hello World!", new Library().getHello());
+        assertEquals("Hello World!", new Mobile().run());
     }
 }

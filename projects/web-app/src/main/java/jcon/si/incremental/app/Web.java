@@ -3,8 +3,8 @@
  */
 package jcon.si.incremental.app;
 
-public class App {
+public class Web {
     public String run() {
-        return new Library().getHello();
+        return "Hello World";
     }
 }

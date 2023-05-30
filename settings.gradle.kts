@@ -11,7 +11,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "jcon-si-incremental"
 include(
-        "library",
+        "mobile-app",
+        "desktop-app",
         "web-app"
 )
 rootProject.children.forEach {

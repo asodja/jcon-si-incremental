@@ -16,3 +16,9 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.withType<JavaCompile> {
+    doLast {
+        Thread.sleep(10_000)
+    }
+}
